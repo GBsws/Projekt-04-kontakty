@@ -6,6 +6,69 @@ body {
 	font-size: 14px;
 }
 
-h1 {
+h1,
+h2 {
 	text-align: center;
+}
+p{
+	text-align:center;
+}
+img{
+	border-radius:50%;
+	padding-top:10px;
+}
+.osoba{
+	border: 1px solid black;
+	border-radius:5px;
+}
+.tym{
+	display:block;
+	}
+.osoba{
+	text-align:center;
+	margin:10px;
+}
+
+@media(min-width:480px){
+	.tym{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.osoba{
+		display:flex;
+		flex:1 1 calc((100% / 2) - 5%);
+		margin:8px;
+	}
+	.foto{
+		padding-right:10px;
+		padding-left:10px;
+	}
+}
+
+/*@media (min-width:1020px){
+	.tym{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.osoba{
+		display:flex;
+		flex:1 1 calc((100% / 2) - 5%);
+		margin:8px;
+	}
+	.foto{
+		padding-right:10px;
+		padding-left:10px;
+	}
+}*/
+
+@media(min-width:1021px){
+/*.tym{
+		display:flex;
+	}*/
+	.osoba{
+		flex:1 1 calc((100% / 4) - 2%);
+		margin:2px;
+		/*padding:10px;*/
+		text-align:center;
+	}
 }
