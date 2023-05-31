@@ -16,7 +16,7 @@ p {
 }
 img{
 	border-radius:50%;
-	width: 75%;
+	width: 50%;
 	margin-top:5px;
 }
 .osoba{
@@ -45,5 +45,6 @@ img{
 		flex:1 1 calc((100% / 4) - 2%);
 		margin:2px;
 		text-align:center;
+		flex-direction:column;
 	}
 }
